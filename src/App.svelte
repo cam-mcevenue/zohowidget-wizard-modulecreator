@@ -2,4 +2,10 @@
 	let message = "World";
 </script>
 
-<h1>Hello {message}</h1>
+<style global lang="postcss">
+	@tailwind base;
+	@tailwind components;
+	@tailwind utilities;
+</style>
+
+<h1 class="shadow-lg">Hello {message}</h1>
